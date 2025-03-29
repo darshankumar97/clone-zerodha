@@ -5,13 +5,11 @@ import Stats from './stats';
 import Education from './education';
 import Pricing from './pricing';
 import OpenAccount from '../openAccount';
-import Footer from '../footer';
-import Navbar from '../navbar';
 
 function Homepage () {
     return ( 
         <>
-             <Navbar/>
+            
             <Hero/>
             <Awards/>
             <Stats/>
@@ -19,7 +17,7 @@ function Homepage () {
             <Education/>
             <OpenAccount/>
             
-            <Footer/>        </>
+                </>
      );
 }
 
